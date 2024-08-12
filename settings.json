@@ -6,46 +6,64 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
+//
+//"experimental.theme_overrides": {
+//  "background.appearance": "transparent",
+//  "background": "#4c464290",
+//  "editor.background": "#00000030",
+//  "editor.gutter.background": "#00000030",
+//  "tab_bar.background": "#00000030",
+//  "terminal.background": "#00000030",
+//  "toolbar.background": "#00000030",
+//  "tab.active_background": "#28282820",
+//  "tab.inactive_background": "#00000000",
+//  "status_bar.background": "#00000030",
+//  "title_bar.background": "#00000030",
+//  "panel.background": "#00000030",
+//  "border.variant": "#00000000",
+//  "scrollbar.track.border": "#00000000",
+//  "editor.active_line.background": "#00000000"
+//}
 {
-    "theme": "Gruvbox Dark Hard",
-    "ui_font_family": "RecMonoCasual Nerd Font",
-    "ui_font_size": 16,
-    "buffer_font_size": 16,
-    "relative_line_numbers": true,
-    "vim_mode": true,
-    "vim": {
-        "use_system_clipboard": "always",
-        "use_multiline_find": true, // default: false
-        "use_smartcase_find": true // default: false
+  "theme": "Gruvbox Dark Hard",
+  "ui_font_family": "RecMonoCasual Nerd Font Mono",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "relative_line_numbers": true,
+  "vim_mode": true,
+  "vim": {
+    "use_system_clipboard": "always",
+    "use_multiline_find": true, // default: false
+    "use_smartcase_find": true // default: false
+  },
+  "languages": {
+    "JavaScript": {
+      "tab_size": 4,
+      "soft_wrap": "none"
     },
-    "languages": {
-        "JavaScript": {
-            "tab_size": 4,
-            "soft_wrap": "none"
-        },
-        "JSON": {
-            "tab_size": 4
-        },
-        "HTML": {
-            "tab_size": 4,
-            "soft_wrap": "none"
-        }
+    "JSON": {
+      "tab_size": 4
     },
-    "experimental.theme_overrides": {
-        "background.appearance": "transparent",
-        "background": "#4c464290",
-        "editor.background": "#00000030",
-        "editor.gutter.background": "#00000030",
-        "tab_bar.background": "#00000030",
-        "terminal.background": "#00000030",
-        "toolbar.background": "#00000030",
-        "tab.active_background": "#28282820",
-        "tab.inactive_background": "#00000000",
-        "status_bar.background": "#00000030",
-        "title_bar.background": "#00000030",
-        "panel.background": "#00000030",
-        "border.variant": "#00000000",
-        "scrollbar.track.border": "#00000000",
-        "editor.active_line.background": "#00000000"
+    "HTML": {
+      "tab_size": 4,
+      "soft_wrap": "none"
     }
+  },
+  "experimental.theme_overrides": {
+    "background.appearance": "transparent",
+    "background": "#00000080",
+    "editor.background": "#00000030",
+    "editor.gutter.background": "#00000030",
+    "tab_bar.background": "#00000030",
+    "terminal.background": "#00000030",
+    "toolbar.background": "#00000030",
+    "tab.active_background": "#28282820",
+    "tab.inactive_background": "#00000000",
+    "status_bar.background": "#00000030",
+    "title_bar.background": "#00000030",
+    "panel.background": "#00000030",
+    "border.variant": "#00000000",
+    "scrollbar.track.border": "#00000000",
+    "editor.active_line.background": "#00000000"
+  }
 }
