@@ -35,7 +35,7 @@
         "regex": true
     },
     "inlay_hints": {
-        "enabled": true
+        "enabled": false
     },
     "vim_mode": true,
     "vim": {
@@ -67,7 +67,8 @@
             "soft_wrap": "none"
         },
         "Go": {
-            "preferred_line_length": 80
+            "preferred_line_length": 80,
+            "soft_wrap": "none"
         }
     },
     "experimental.theme_overrides": {
