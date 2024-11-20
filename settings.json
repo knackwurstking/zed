@@ -1,0 +1,99 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+//
+//"experimental.theme_overrides": {
+//  "background.appearance": "transparent",
+//  "background": "#4c464290",
+//  "editor.background": "#00000030",
+//  "editor.gutter.background": "#00000030",
+//  "tab_bar.background": "#00000030",
+//  "terminal.background": "#00000030",
+//  "toolbar.background": "#00000030",
+//  "tab.active_background": "#28282820",
+//  "tab.inactive_background": "#00000000",
+//  "status_bar.background": "#00000030",
+//  "title_bar.background": "#00000030",
+//  "panel.background": "#00000030",
+//  "border.variant": "#00000000",
+//  "scrollbar.track.border": "#00000000",
+//  "editor.active_line.background": "#00000000"
+//}
+{
+    "assistant": {
+        "default_model": {
+            "provider": "zed.dev",
+            "model": "claude-3-5-sonnet-20240620"
+        },
+        "version": "2"
+    },
+    "theme": "Gruvbox Dark",
+    "ui_font_family": "RecMonoCasual Nerd Font",
+    "ui_font_size": 16,
+    "buffer_font_family": "RecMonoCasual Nerd Font",
+    "buffer_font_size": 16,
+    "relative_line_numbers": true,
+    "search": {
+        "regex": true
+    },
+    "inlay_hints": {
+        "enabled": false
+    },
+    "vim_mode": true,
+    "vim": {
+        "use_system_clipboard": "always",
+        "use_multiline_find": true, // default: false
+        "use_smartcase_find": true // default: false
+    },
+    "tab_size": 4,
+    "soft_wrap": "preferred_line_length",
+    "preferred_line_length": 100,
+    "languages": {
+        "JSDoc": {
+            "tab_size": 4
+        },
+        "JavaScript": {
+            "tab_size": 4
+        },
+        "JSON": {
+            "tab_size": 4
+        },
+        "HTML": {
+            "tab_size": 4
+        },
+        "CSS": {
+            "tab_size": 4
+        },
+        "Go": {
+            "tab_size": 4
+        },
+        "Make": {
+            "tab_size": 4
+        },
+        "Markdown": {
+            "tab_size": 4
+        }
+    },
+    "experimental.theme_overrides": {
+        "background.appearance": "transparent",
+        "background": "#00000090",
+        "editor.background": "#00000030",
+        "editor.gutter.background": "#00000030",
+        "tab_bar.background": "#00000030",
+        "terminal.background": "#00000020",
+        "toolbar.background": "#00000030",
+        "tab.active_background": "#28282830",
+        "tab.inactive_background": "#00000030",
+        "status_bar.background": "#00000090",
+        "title_bar.background": "#00000090",
+        "panel.background": "#00000030",
+        "border.variant": "#00000030",
+        "scrollbar.track.border": "#00000030",
+        "editor.active_line.background": "#00000030"
+    }
+}
