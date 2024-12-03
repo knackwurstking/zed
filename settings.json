@@ -76,6 +76,10 @@
             "tab_size": 4
         },
         "Markdown": {
+            "tab_size": 4,
+            "formatter": "prettier"
+        },
+        "yaml": {
             "tab_size": 4
         }
     },
@@ -85,7 +89,7 @@
         "editor.background": "#00000030",
         "editor.gutter.background": "#00000030",
         "tab_bar.background": "#00000030",
-        "terminal.background": "#00000020",
+        "terminal.background": "#00000000",
         "toolbar.background": "#00000030",
         "tab.active_background": "#28282830",
         "tab.inactive_background": "#00000030",
