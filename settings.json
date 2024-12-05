@@ -25,13 +25,6 @@
 //  "editor.active_line.background": "#00000000"
 //}
 {
-    "assistant": {
-        "default_model": {
-            "provider": "zed.dev",
-            "model": "claude-3-5-sonnet-20240620"
-        },
-        "version": "2"
-    },
     "theme": "Gruvbox Dark",
     "ui_font_family": "RecMonoCasual Nerd Font",
     "ui_font_size": 16,
@@ -43,6 +36,11 @@
     },
     "inlay_hints": {
         "enabled": false
+    },
+    "terminal": {
+        "alternate_scroll": "off",
+        "blinking": "terminal_controlled",
+        "copy_on_select": false
     },
     "vim_mode": true,
     "vim": {
@@ -80,24 +78,25 @@
             "formatter": "prettier"
         },
         "yaml": {
-            "tab_size": 4
+            "tab_size": 4,
+            "formatter": "prettier"
         }
     },
     "experimental.theme_overrides": {
         "background.appearance": "transparent",
-        "background": "#00000090",
-        "editor.background": "#00000030",
-        "editor.gutter.background": "#00000030",
-        "tab_bar.background": "#00000030",
+        "background": "#00000075",
+        "editor.background": "#00000000",
+        "editor.gutter.background": "#00000000",
+        "tab_bar.background": "#00000000",
         "terminal.background": "#00000000",
-        "toolbar.background": "#00000030",
-        "tab.active_background": "#28282830",
-        "tab.inactive_background": "#00000030",
+        "toolbar.background": "#00000000",
+        "tab.active_background": "#00000000",
+        "tab.inactive_background": "#00000000",
         "status_bar.background": "#00000090",
         "title_bar.background": "#00000090",
-        "panel.background": "#00000030",
-        "border.variant": "#00000030",
-        "scrollbar.track.border": "#00000030",
-        "editor.active_line.background": "#00000030"
+        "panel.background": "#00000000",
+        "border.variant": "#00000000",
+        "scrollbar.track.border": "#00000000",
+        "editor.active_line.background": "#00000065"
     }
 }
