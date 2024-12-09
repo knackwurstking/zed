@@ -20,6 +20,41 @@
         "copy_on_select": false
     },
 
+    "file_finder": {
+        // Whether to show file icons in the file finder.
+        "file_icons": true,
+        // Determines how much space the file finder can take up in relation to the available window width.
+        // There are 5 possible width values:
+        //
+        // 1. Small: This value is essentially a fixed width.
+        //    "modal_width": "small"
+        // 2. Medium:
+        //    "modal_width": "medium"
+        // 3. Large:
+        //    "modal_width": "large"
+        // 4. Extra Large:
+        //    "modal_width": "xlarge"
+        // 5. Fullscreen: This value removes any horizontal padding, as it consumes the whole viewport width.
+        //    "modal_width": "full"
+        //
+        // Default: small
+        "modal_max_width": "xlarge"
+    },
+
+    //"formatter": {
+    //    "external": {
+    //        "command": "prettier",
+    //        "arguments": [
+    //            "--stdin-filepath",
+    //            "{buffer_path}",
+    //            "--print-width",
+    //            "100",
+    //            "--tab-width",
+    //            "4"
+    //        ]
+    //    }
+    //},
+
     "vim_mode": true,
 
     "vim": {
@@ -28,6 +63,8 @@
         "use_smartcase_find": true
     },
 
+    "tab_size": 4,
+    "hard_tabs": false,
     "soft_wrap": "preferred_line_length",
     "preferred_line_length": 100,
 
@@ -35,14 +72,32 @@
         "JavaScript": {
             "tab_size": 4
         },
+
         "SCSS": {
             "tab_size": 4
         },
+
         "JSON": {
             "tab_size": 4
         },
+
         "Markdown": {
-            "format_on_save": "on"
+            "format_on_save": "on",
+            "tab_size": 1,
+            "preferred_line_length": 100,
+            "formatter": {
+                "external": {
+                    "command": "prettier",
+                    "arguments": [
+                        "--stdin-filepath",
+                        "{buffer_path}",
+                        "--print-width",
+                        "100",
+                        "--tab-width",
+                        "1"
+                    ]
+                }
+            }
         }
     },
 
