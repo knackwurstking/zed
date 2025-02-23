@@ -1,9 +1,19 @@
 {
+    "features": {
+        "edit_prediction_provider": "zed"
+    },
+    "assistant": {
+        "default_model": {
+            "provider": "zed.dev",
+            "model": "claude-3-5-sonnet-latest"
+        },
+        "version": "2"
+    },
     "theme": "Gruvbox Dark",
     "ui_font_family": "RecMonoCasual Nerd Font",
-    "ui_font_size": 16,
+    "ui_font_size": 18,
     "buffer_font_family": "RecMonoCasual Nerd Font",
-    "buffer_font_size": 16,
+    "buffer_font_size": 18,
     "relative_line_numbers": true,
 
     "search": {
@@ -68,6 +78,10 @@
     "soft_wrap": "preferred_line_length",
     "preferred_line_length": 100,
 
+    //"lsp": {
+    //    "gopls": {}
+    //},
+
     "languages": {
         "JavaScript": {
             "tab_size": 4
@@ -79,6 +93,11 @@
 
         "JSON": {
             "tab_size": 4
+        },
+
+        "Go": {
+            "tab_size": 4,
+            "language_servers": ["gopls"]
         },
 
         "Markdown": {
@@ -98,12 +117,16 @@
                     ]
                 }
             }
+        },
+
+        "Make": {
+            "hard_tabs": true
         }
     },
 
     "experimental.theme_overrides": {
         "background.appearance": "transparent",
-        "background": "#00000075",
+        "background": "#000000CC",
         "editor.background": "#00000000",
         "editor.gutter.background": "#00000030",
         "tab_bar.background": "#00000030",
