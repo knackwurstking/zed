@@ -2,6 +2,11 @@
     "features": {
         "edit_prediction_provider": "zed"
     },
+
+    "edit_predictions": {
+        "mode": "subtle"
+    },
+
     "assistant": {
         "default_model": {
             "provider": "zed.dev",
@@ -9,7 +14,8 @@
         },
         "version": "2"
     },
-    "theme": "Gruvbox Dark",
+
+    "theme": "Gruvbox Dark Hard",
     "ui_font_family": "RecMonoCasual Nerd Font",
     "ui_font_size": 18,
     "buffer_font_family": "RecMonoCasual Nerd Font",
@@ -79,10 +85,26 @@
     "preferred_line_length": 100,
 
     //"lsp": {
-    //    "gopls": {}
+    //    "deno": {
+    //        "settings": {
+    //            "deno": {
+    //                "enable": true
+    //            }
+    //        }
+    //    }
     //},
 
     "languages": {
+        //"TypeScript": {
+        //    "language_servers": ["deno", "!typescript-language-server", "!vtsls", "!eslint"],
+        //    "formatter": "language_server"
+        //},
+
+        //"TSX": {
+        //    "language_servers": ["deno", "!typescript-language-server", "!vtsls", "!eslint"],
+        //    "formatter": "language_server"
+        //},
+
         "JavaScript": {
             "tab_size": 4
         },
@@ -102,7 +124,7 @@
 
         "Markdown": {
             "format_on_save": "on",
-            "tab_size": 1,
+            "tab_size": 4,
             "preferred_line_length": 100,
             "formatter": {
                 "external": {
@@ -113,7 +135,7 @@
                         "--print-width",
                         "100",
                         "--tab-width",
-                        "1"
+                        "4"
                     ]
                 }
             }
@@ -122,23 +144,23 @@
         "Make": {
             "hard_tabs": true
         }
-    },
-
-    "experimental.theme_overrides": {
-        "background.appearance": "transparent",
-        "background": "#000000CC",
-        "editor.background": "#00000000",
-        "editor.gutter.background": "#00000030",
-        "tab_bar.background": "#00000030",
-        "terminal.background": "#00000000",
-        "toolbar.background": "#00000030",
-        "tab.active_background": "#00000040",
-        "tab.inactive_background": "#00000000",
-        "status_bar.background": "#00000030",
-        "title_bar.background": "#00000030",
-        "panel.background": "#00000030",
-        "border.variant": "#00000030",
-        "scrollbar.track.border": "#00000030",
-        "editor.active_line.background": "#00000030"
     }
+
+    //"experimental.theme_overrides": {
+    //    "background.appearance": "transparent",
+    //    "background": "#00000090",
+    //    "editor.background": "#00000030",
+    //    "editor.gutter.background": "#00000030",
+    //    "tab_bar.background": "#00000030",
+    //    "terminal.background": "#00000030",
+    //    "toolbar.background": "#00000030",
+    //    "tab.active_background": "#00000030",
+    //    "tab.inactive_background": "#00000030",
+    //    "status_bar.background": "#00000030",
+    //    "title_bar.background": "#00000030",
+    //    "panel.background": "#00000030",
+    //    "border.variant": "#00000030",
+    //    "scrollbar.track.border": "#00000030",
+    //    "editor.active_line.background": "#00000030"
+    //}
 }
