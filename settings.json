@@ -1,166 +1,157 @@
 {
-    "features": {
-        "edit_prediction_provider": "zed"
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+
+  "edit_predictions": {
+    "mode": "subtle"
+  },
+
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
     },
+    "version": "2"
+  },
 
-    "edit_predictions": {
-        "mode": "subtle"
-    },
+  "theme": "Gruvbox Dark Hard",
+  "ui_font_family": "RecMonoCasual Nerd Font",
+  "ui_font_size": 18,
+  "buffer_font_family": "RecMonoCasual Nerd Font",
+  "buffer_font_size": 18,
+  "relative_line_numbers": true,
 
-    "assistant": {
-        "default_model": {
-            "provider": "zed.dev",
-            "model": "claude-3-5-sonnet-latest"
-        },
-        "version": "2"
-    },
+  "search": {
+    "regex": true
+  },
 
-    "theme": "Gruvbox Dark Hard",
-    "ui_font_family": "RecMonoCasual Nerd Font",
-    "ui_font_size": 18,
-    "buffer_font_family": "RecMonoCasual Nerd Font",
-    "buffer_font_size": 18,
-    "relative_line_numbers": true,
+  "inlay_hints": {
+    "enabled": false
+  },
 
-    "search": {
-        "regex": true
-    },
+  "terminal": {
+    "alternate_scroll": "off",
+    "blinking": "terminal_controlled",
+    "copy_on_select": false
+  },
 
-    "inlay_hints": {
-        "enabled": false
-    },
+  "file_finder": {
+    // Whether to show file icons in the file finder.
+    "file_icons": true,
+    // Determines how much space the file finder can take up in relation to the available window width.
+    // There are 5 possible width values:
+    //
+    // 1. Small: This value is essentially a fixed width.
+    //    "modal_width": "small"
+    // 2. Medium:
+    //    "modal_width": "medium"
+    // 3. Large:
+    //    "modal_width": "large"
+    // 4. Extra Large:
+    //    "modal_width": "xlarge"
+    // 5. Fullscreen: This value removes any horizontal padding, as it consumes the whole viewport width.
+    //    "modal_width": "full"
+    //
+    // Default: small
+    "modal_max_width": "xlarge"
+  },
 
-    "terminal": {
-        "alternate_scroll": "off",
-        "blinking": "terminal_controlled",
-        "copy_on_select": false
-    },
+  //"formatter": {
+  //    "external": {
+  //        "command": "prettier",
+  //        "arguments": [
+  //            "--stdin-filepath",
+  //            "{buffer_path}",
+  //            "--print-width",
+  //            "100",
+  //            "--tab-width",
+  //            "4"
+  //        ]
+  //    }
+  //},
 
-    "file_finder": {
-        // Whether to show file icons in the file finder.
-        "file_icons": true,
-        // Determines how much space the file finder can take up in relation to the available window width.
-        // There are 5 possible width values:
-        //
-        // 1. Small: This value is essentially a fixed width.
-        //    "modal_width": "small"
-        // 2. Medium:
-        //    "modal_width": "medium"
-        // 3. Large:
-        //    "modal_width": "large"
-        // 4. Extra Large:
-        //    "modal_width": "xlarge"
-        // 5. Fullscreen: This value removes any horizontal padding, as it consumes the whole viewport width.
-        //    "modal_width": "full"
-        //
-        // Default: small
-        "modal_max_width": "xlarge"
-    },
+  "vim_mode": true,
 
-    //"formatter": {
-    //    "external": {
-    //        "command": "prettier",
-    //        "arguments": [
-    //            "--stdin-filepath",
-    //            "{buffer_path}",
-    //            "--print-width",
-    //            "100",
-    //            "--tab-width",
-    //            "4"
-    //        ]
-    //    }
+  "vim": {
+    "use_system_clipboard": "always",
+    "use_multiline_find": true,
+    "use_smartcase_find": true
+  },
+
+  "hard_tabs": false,
+  "soft_wrap": "none",
+  //"preferred_line_length": 100,
+
+  //"lsp": {
+  //    "deno": {
+  //        "settings": {
+  //            "deno": {
+  //                "enable": true
+  //            }
+  //        }
+  //    }
+  //},
+
+  "languages": {
+    //"TypeScript": {
+    //    "language_servers": ["deno", "!typescript-language-server", "!vtsls", "!eslint"],
+    //    "formatter": "language_server"
     //},
 
-    "vim_mode": true,
-
-    "vim": {
-        "use_system_clipboard": "always",
-        "use_multiline_find": true,
-        "use_smartcase_find": true
-    },
-
-    "tab_size": 4,
-    "hard_tabs": false,
-    "soft_wrap": "preferred_line_length",
-    "preferred_line_length": 100,
-
-    //"lsp": {
-    //    "deno": {
-    //        "settings": {
-    //            "deno": {
-    //                "enable": true
-    //            }
-    //        }
-    //    }
+    //"TSX": {
+    //    "language_servers": ["deno", "!typescript-language-server", "!vtsls", "!eslint"],
+    //    "formatter": "language_server"
     //},
 
-    "languages": {
-        //"TypeScript": {
-        //    "language_servers": ["deno", "!typescript-language-server", "!vtsls", "!eslint"],
-        //    "formatter": "language_server"
-        //},
+    "JavaScript": {
+      "tab_size": 4
+    },
 
-        //"TSX": {
-        //    "language_servers": ["deno", "!typescript-language-server", "!vtsls", "!eslint"],
-        //    "formatter": "language_server"
-        //},
+    "SCSS": {
+      "tab_size": 4
+    },
 
-        "JavaScript": {
-            "tab_size": 4
-        },
+    "JSON": {
+      "tab_size": 4
+    },
 
-        "SCSS": {
-            "tab_size": 4
-        },
+    "Go": {
+      "tab_size": 4,
+      "language_servers": ["gopls"]
+    },
 
-        "JSON": {
-            "tab_size": 4
-        },
-
-        "Go": {
-            "tab_size": 4,
-            "language_servers": ["gopls"]
-        },
-
-        "Markdown": {
-            "format_on_save": "on",
-            "tab_size": 4,
-            "preferred_line_length": 100,
-            "formatter": {
-                "external": {
-                    "command": "prettier",
-                    "arguments": [
-                        "--stdin-filepath",
-                        "{buffer_path}",
-                        "--print-width",
-                        "100",
-                        "--tab-width",
-                        "4"
-                    ]
-                }
-            }
-        },
-
-        "Make": {
-            "hard_tabs": true
+    "Markdown": {
+      "format_on_save": "on",
+      "tab_size": 4,
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}", "--tab-width", "4"]
         }
+      }
     },
 
-    "experimental.theme_overrides": {
-        "background.appearance": "transparent",
-        "background": "#00000075",
-        "editor.background": "#00000030",
-        "editor.gutter.background": "#00000030",
-        "tab_bar.background": "#00000030",
-        "terminal.background": "#00000030",
-        "toolbar.background": "#00000030",
-        "tab.active_background": "#00000030",
-        "tab.inactive_background": "#00000030",
-        "status_bar.background": "#00000075",
-        "title_bar.background": "#00000075",
-        "panel.background": "#00000030",
-        "border.variant": "#00000030",
-        "scrollbar.track.border": "#00000030",
-        "editor.active_line.background": "#00000030"
+    "Make": {
+      "hard_tabs": true
     }
+  },
+
+  "experimental.theme_overrides": {
+    "background.appearance": "transparent",
+    "background": "#00000075",
+    "editor.background": "#00000030",
+    "editor.gutter.background": "#00000030",
+    "tab_bar.background": "#00000030",
+    "terminal.background": "#00000030",
+    "toolbar.background": "#00000030",
+    "tab.active_background": "#00000030",
+    "tab.inactive_background": "#00000030",
+    "status_bar.background": "#00000075",
+    "title_bar.background": "#00000075",
+    "panel.background": "#00000030",
+    "border.variant": "#00000030",
+    "scrollbar.track.border": "#00000030",
+    "editor.active_line.background": "#00000030"
+  }
 }
