@@ -1,4 +1,34 @@
 {
+  "terminal": {
+    "alternate_scroll": "off",
+    "blinking": "terminal_controlled",
+    "copy_on_select": false,
+    "dock": "bottom",
+    "default_width": 640,
+    "default_height": 480,
+    "detect_venv": {
+      "on": {
+        "directories": [".env", "env", ".venv", "venv"],
+        "activate_script": "default"
+      }
+    },
+    "env": {},
+    "font_family": "RecMonoCasual Nerd Font",
+    "font_features": null,
+    "font_size": null,
+    "line_height": "comfortable",
+    "option_as_meta": false,
+    "button": true,
+    "shell": "system",
+    "toolbar": {
+      "breadcrumbs": true
+    },
+    "working_directory": "current_project_directory",
+    "scrollbar": {
+      "show": null
+    }
+  },
+
   "features": {
     "edit_prediction_provider": "zed"
   },
@@ -28,12 +58,6 @@
 
   "inlay_hints": {
     "enabled": false
-  },
-
-  "terminal": {
-    "alternate_scroll": "off",
-    "blinking": "terminal_controlled",
-    "copy_on_select": false
   },
 
   "file_finder": {
@@ -94,15 +118,16 @@
   //},
 
   "languages": {
-    //"TypeScript": {
-    //    "language_servers": ["deno", "!typescript-language-server", "!vtsls", "!eslint"],
-    //    "formatter": "language_server"
-    //},
-
     //"TSX": {
     //    "language_servers": ["deno", "!typescript-language-server", "!vtsls", "!eslint"],
     //    "formatter": "language_server"
     //},
+
+    "TypeScript": {
+      "tab_size": 4
+      //    "language_servers": ["deno", "!typescript-language-server", "!vtsls", "!eslint"],
+      //    "formatter": "language_server"
+    },
 
     "JavaScript": {
       "tab_size": 4
