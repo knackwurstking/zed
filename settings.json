@@ -105,7 +105,7 @@
 
   "hard_tabs": false,
   "soft_wrap": "none",
-  //"preferred_line_length": 100,
+  "preferred_line_length": 80,
 
   //"lsp": {
   //    "deno": {
