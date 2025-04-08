@@ -30,7 +30,7 @@
   },
 
   "features": {
-    "edit_prediction_provider": "zed"
+    "edit_prediction_provider": "none"
   },
 
   "edit_predictions": {
@@ -117,7 +117,7 @@
 
   "experimental.theme_overrides": {
     "background.appearance": "transparent",
-    "background": "#00000075",
+    "background": "#00000090",
     "editor.background": "#00000030",
     "editor.gutter.background": "#00000030",
     "tab_bar.background": "#00000030",
@@ -125,8 +125,8 @@
     "toolbar.background": "#00000030",
     "tab.active_background": "#00000030",
     "tab.inactive_background": "#00000030",
-    "status_bar.background": "#00000075",
-    "title_bar.background": "#00000075",
+    "status_bar.background": "#00000090",
+    "title_bar.background": "#00000090",
     "panel.background": "#00000030",
     "border.variant": "#00000030",
     "scrollbar.track.border": "#00000030",
