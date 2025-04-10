@@ -45,7 +45,7 @@
     "version": "2"
   },
 
-  "theme": "Monokai Charcoal (green)",
+  "theme": "Monokai Charcoal (yellow)",
   "ui_font_family": "RecMonoCasual Nerd Font",
   "ui_font_size": 18,
   "buffer_font_family": "RecMonoCasual Nerd Font",
@@ -74,7 +74,7 @@
   },
 
   "hard_tabs": false,
-  "soft_wrap": "none",
+  "soft_wrap": "preferred_line_length",
   "preferred_line_length": 80,
 
   "languages": {
@@ -108,6 +108,10 @@
           "arguments": ["--stdin-filepath", "{buffer_path}", "--tab-width", "4"]
         }
       }
+    },
+
+    "CMake": {
+      "hard_tabs": true
     },
 
     "Make": {
