@@ -1,14 +1,4 @@
 {
-  "diagnostics": {
-    "include_warnings": true,
-    "inline": {
-      "enabled": false,
-      "update_debounce_ms": 150,
-      "padding": 4,
-      "min_column": 0,
-      "max_severity": null
-    }
-  },
   "terminal": {
     "alternate_scroll": "off",
     "blinking": "terminal_controlled",
@@ -47,7 +37,7 @@
     "mode": "subtle"
   },
 
-  "agent": {
+  "assistant": {
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-3-5-sonnet-latest"
@@ -57,9 +47,9 @@
 
   "theme": "Gruvbox Dark Hard",
   "ui_font_family": "RecMonoCasual Nerd Font",
-  "ui_font_size": 16,
+  "ui_font_size": 18,
   "buffer_font_family": "RecMonoCasual Nerd Font",
-  "buffer_font_size": 16,
+  "buffer_font_size": 18,
   "relative_line_numbers": true,
 
   "search": {
@@ -84,7 +74,7 @@
   },
 
   "hard_tabs": false,
-  "soft_wrap": "editor_width",
+  "soft_wrap": "preferred_line_length",
   "preferred_line_length": 80,
 
   "languages": {
