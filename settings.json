@@ -2,7 +2,7 @@
   "diagnostics": {
     "include_warnings": true,
     "inline": {
-      "enabled": false,
+      "enabled": true,
       "update_debounce_ms": 150,
       "padding": 4,
       "min_column": 0,
