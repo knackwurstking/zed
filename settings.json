@@ -1,4 +1,5 @@
 {
+  "buffer_line_height": "comfortable",
   "diagnostics": {
     "include_warnings": true,
     "inline": {
@@ -26,7 +27,6 @@
     "font_family": "RecMonoCasual Nerd Font",
     "font_features": null,
     "font_size": null,
-    "line_height": "comfortable",
     "option_as_meta": false,
     "button": true,
     "shell": "system",
@@ -107,6 +107,11 @@
     "Go": {
       "tab_size": 4,
       "language_servers": ["gopls"]
+    },
+
+    "HTML": {
+      "formatter": null,
+      "format_on_save": "off"
     },
 
     "Markdown": {
