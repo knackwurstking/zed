@@ -11,7 +11,7 @@
     }
   },
   "terminal": {
-    "alternate_scroll": "off",
+    "alternate_scroll": "on",
     "blinking": "terminal_controlled",
     "copy_on_select": false,
     "dock": "bottom",
@@ -26,10 +26,13 @@
     "env": {},
     "font_family": "RecMonoCasual Nerd Font",
     "font_features": null,
-    "font_size": null,
+    "font_size": 16,
     "option_as_meta": false,
+    "line_height": "standard",
     "button": true,
-    "shell": "system",
+    //"shell": {
+    //  "program": "/opt/homebrew/bin/ghostty"
+    //},
     "toolbar": {
       "breadcrumbs": true
     },
