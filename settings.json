@@ -11,7 +11,7 @@
     }
   },
   "terminal": {
-    "alternate_scroll": "on",
+    "alternate_scroll": "off",
     "blinking": "terminal_controlled",
     "copy_on_select": false,
     "dock": "bottom",
@@ -28,7 +28,7 @@
     "font_features": null,
     "font_size": 16,
     "option_as_meta": false,
-    "line_height": "standard",
+    "line_height": "comfortable",
     "button": true,
     //"shell": {
     //  "program": "/opt/homebrew/bin/ghostty"
@@ -53,7 +53,7 @@
   "agent": {
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-latest"
+      "model": "claude-sonnet-4"
     },
     "version": "2"
   },
