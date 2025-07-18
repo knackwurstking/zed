@@ -1,4 +1,7 @@
 {
+  "agent": {
+    "always_allow_tool_actions": true
+  },
   "buffer_line_height": "comfortable",
   "diagnostics": {
     "include_warnings": true,
@@ -11,7 +14,7 @@
     }
   },
   "terminal": {
-    "alternate_scroll": "off",
+    "alternate_scroll": "on",
     "blinking": "terminal_controlled",
     "copy_on_select": false,
     "dock": "bottom",
@@ -42,21 +45,20 @@
     }
   },
 
-  "features": {
-    "edit_prediction_provider": "none"
-  },
+  //"features": {
+  //  "edit_prediction_provider": "none"
+  //},
 
   "edit_predictions": {
-    "mode": "subtle"
+    "mode": "eager"
   },
 
-  "agent": {
-    "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4"
-    },
-    "version": "2"
-  },
+  //"agent": {
+  //  "default_model": {
+  //    "provider": "zed.dev",
+  //    "model": "claude-sonnet-4"
+  //  }
+  //},
 
   "theme": "Gruvbox Dark Hard",
   "ui_font_family": "RecMonoCasual Nerd Font",
@@ -70,7 +72,7 @@
   },
 
   "inlay_hints": {
-    "enabled": false
+    "enabled": true
   },
 
   "file_finder": {
@@ -82,7 +84,6 @@
 
   "vim": {
     "use_system_clipboard": "always",
-    "use_multiline_find": true,
     "use_smartcase_find": true
   },
 
@@ -96,10 +97,6 @@
     },
 
     "JavaScript": {
-      "tab_size": 4
-    },
-
-    "SCSS": {
       "tab_size": 4
     },
 
@@ -128,10 +125,6 @@
       }
     },
 
-    "CMake": {
-      "hard_tabs": true
-    },
-
     "Make": {
       "hard_tabs": true
     }
@@ -149,7 +142,7 @@
     "tab.inactive_background": "#00000030",
     "status_bar.background": "#00000090",
     "title_bar.background": "#00000090",
-    "panel.background": "#00000030",
+    "panel.background": "#000000FF",
     "border.variant": "#00000030",
     "scrollbar.track.border": "#00000030",
     "editor.active_line.background": "#00000030"
