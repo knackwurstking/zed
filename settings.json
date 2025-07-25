@@ -21,8 +21,8 @@
   "agent": {
     "play_sound_when_agent_done": true,
     "default_model": {
-      "provider": "ollama",
-      "model": "llama3.1:8b"
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-thinking"
     },
     "always_allow_tool_actions": true
   },
@@ -37,6 +37,7 @@
       "max_severity": null
     }
   },
+
   "terminal": {
     "alternate_scroll": "on",
     "blinking": "terminal_controlled",
@@ -69,12 +70,12 @@
     }
   },
 
-  //"features": {
-  //  "edit_prediction_provider": "none"
-  //},
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
 
   "edit_predictions": {
-    "mode": "subtle",
+    "mode": "eager",
     "enabled_in_text_threads": true
   },
 
