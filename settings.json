@@ -3,20 +3,20 @@
     "auto_fold_dirs": false
   },
 
-  //"language_models": {
-  //  "ollama": {
-  //    "available_models": [
-  //      {
-  //        "name": "qwen3",
-  //        "display_name": "qwen3 custom",
-  //        "max_tokens": 100000,
-  //        "supports_tools": true,
-  //        "supports_thinking": true,
-  //        "supports_images": true
-  //      }
-  //    ]
-  //  }
-  //},
+  "language_models": {
+    "ollama": {
+      "available_models": [
+        {
+          "name": "llama3.1",
+          "display_name": "llama3.1 custom",
+          "max_tokens": 200000,
+          "supports_tools": true,
+          "supports_thinking": true,
+          "supports_images": true
+        }
+      ]
+    }
+  },
 
   "agent": {
     "play_sound_when_agent_done": true,
