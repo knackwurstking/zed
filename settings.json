@@ -1,5 +1,29 @@
 {
+  "project_panel": {
+    "auto_fold_dirs": false
+  },
+
+  //"language_models": {
+  //  "ollama": {
+  //    "available_models": [
+  //      {
+  //        "name": "qwen3",
+  //        "display_name": "qwen3 custom",
+  //        "max_tokens": 100000,
+  //        "supports_tools": true,
+  //        "supports_thinking": true,
+  //        "supports_images": true
+  //      }
+  //    ]
+  //  }
+  //},
+
   "agent": {
+    "play_sound_when_agent_done": true,
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-thinking"
+    },
     "always_allow_tool_actions": true
   },
   "buffer_line_height": "comfortable",
@@ -50,15 +74,9 @@
   //},
 
   "edit_predictions": {
-    "mode": "eager"
+    "mode": "subtle",
+    "enabled_in_text_threads": true
   },
-
-  //"agent": {
-  //  "default_model": {
-  //    "provider": "zed.dev",
-  //    "model": "claude-sonnet-4"
-  //  }
-  //},
 
   "theme": "Gruvbox Dark",
   "ui_font_family": "RecMonoCasual Nerd Font",
@@ -72,7 +90,7 @@
   },
 
   "inlay_hints": {
-    "enabled": true
+    "enabled": false
   },
 
   "file_finder": {
