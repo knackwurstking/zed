@@ -19,10 +19,16 @@
   //},
 
   "agent": {
+    "use_modifier_to_send": true,
+    "inline_assistant_model": {
+      "provider": "google",
+      "model": "gemini-2.5-pro"
+    },
+    "default_profile": "write",
     "play_sound_when_agent_done": true,
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4-thinking"
+      "provider": "google",
+      "model": "gemini-2.5-pro"
     },
     "always_allow_tool_actions": true
   },
@@ -75,7 +81,7 @@
   },
 
   "edit_predictions": {
-    "mode": "eager",
+    "mode": "subtle",
     "enabled_in_text_threads": true
   },
 
@@ -106,34 +112,19 @@
     "use_smartcase_find": true
   },
 
-  "hard_tabs": false,
   "soft_wrap": "editor_width",
   "preferred_line_length": 80,
 
-  "wrap_guides": [90],
+  "wrap_guides": [80],
   "show_wrap_guides": true,
 
   "languages": {
-    "TypeScript": {
-      "tab_size": 4
-    },
-
     "JavaScript": {
       "tab_size": 4
     },
 
-    "JSON": {
-      "tab_size": 4
-    },
-
     "Go": {
-      "tab_size": 4,
       "language_servers": ["gopls"]
-    },
-
-    "HTML": {
-      "formatter": null,
-      "format_on_save": "off"
     },
 
     "Markdown": {
