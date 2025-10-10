@@ -10,14 +10,15 @@
             "provider": "ollama",
             "model": "qwen2.5-coder:7b"
         },
-        "dock": "left"
+        "dock": "left",
+        "default_width": 800
     },
     "edit_predictions": {
         "mode": "subtle",
         "enabled_in_text_threads": false
     },
     "icon_theme": "Material Icon Theme",
-    "theme": "Catppuccin Macchiato (Blur) [Heavy]",
+    "theme": "Catppuccin Espresso (Blur) [Light]",
     "buffer_font_family": "RecMonoCasual Nerd Font",
     "buffer_font_size": 16,
     "wrap_guides": [80, 120],
@@ -57,10 +58,10 @@
     },
     "title_bar": {
         "show_branch_icon": true,
-        "show_branch_name": false,
-        "show_project_items": false,
+        "show_branch_name": true,
+        "show_project_items": true,
         "show_onboarding_banner": false,
-        "show_user_picture": false,
+        "show_user_picture": true,
         "show_sign_in": true,
         "show_menus": false
     },
@@ -71,12 +72,12 @@
         "agent_review": true
     },
     "minimap": {
-        "show": "never",
+        "show": "always",
         "thumb": "always",
-        "current_line_highlight": null
+        "current_line_highlight": "all"
     },
     "git": {
-        "git_gutter": "tracked_files",
+        "git_gutter": "hide",
         "inline_blame": {
             "enabled": true,
             "show_commit_summary": true,
@@ -88,7 +89,7 @@
         "hunk_style": "unstaged_hollow"
     },
     "cursor_blink": true,
-    "show_whitespaces": "none",
+    "show_whitespaces": "all",
     "indent_guides": {
         "enabled": true,
         "line_width": 1,
@@ -96,9 +97,13 @@
         "coloring": "indent_aware",
         "background_coloring": "disabled"
     },
+    "git_panel": {
+        "default_width": 600,
+        "status_style": "icon"
+    },
     "project_panel": {
         "button": false,
-        "default_width": 240,
+        "default_width": 350,
         "folder_icons": false,
         // "hide_root": true,
         "indent_size": 20,
@@ -120,7 +125,7 @@
     },
     "outline_panel": {
         "button": false,
-        "default_width": 300,
+        "default_width": 350,
         "file_icons": true,
         "folder_icons": true,
         "git_status": true,
