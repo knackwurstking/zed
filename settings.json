@@ -1,15 +1,17 @@
 {
+        "show_edit_predictions": false,
         "confirm_quit": true,
         "vim_mode": true,
         "agent": {
+                "play_sound_when_agent_done": true,
                 "inline_assistant_model": {
                         "provider": "ollama",
                         "model": "qwen2.5-coder:7b"
                 },
                 "always_allow_tool_actions": true,
                 "default_model": {
-                        "provider": "zed.dev",
-                        "model": "claude-sonnet-4-thinking"
+                        "provider": "ollama",
+                        "model": "qwen2.5-coder:7b"
                 },
                 "commit_message_model": {
                         "provider": "ollama",
@@ -17,10 +19,6 @@
                 },
                 "dock": "left",
                 "default_width": 600
-        },
-        "edit_predictions": {
-                "mode": "subtle",
-                "enabled_in_text_threads": false
         },
         "icon_theme": "Material Icon Theme",
         "theme": "Gruvbox Dark Hard",
