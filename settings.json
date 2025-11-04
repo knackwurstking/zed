@@ -28,16 +28,16 @@
 		"play_sound_when_agent_done": true,
 		"inline_assistant_model": {
 			"provider": "ollama",
-			"model": "falcon3:10b"
+			"model": "qwen2.5-coder:7b"
 		},
 		"always_allow_tool_actions": true,
 		"default_model": {
 			"provider": "ollama",
-			"model": "falcon3:10b"
+			"model": "qwen2.5-coder:7b"
 		},
 		"commit_message_model": {
 			"provider": "ollama",
-			"model": "falcon3:10b"
+			"model": "qwen2.5-coder:7b"
 		},
 		"dock": "left",
 		"default_width": 600
