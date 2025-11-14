@@ -1,33 +1,25 @@
 {
 	"ssh_connections": [
-  {
-   "host": "server.local",
-   "username": "knackwurstking",
-   "args": [],
-   "projects": [
-    {
-     "paths": [
-      "/Users/knackwurstking"
-     ]
-    },
-    {
-     "paths": [
-      "/Users/knackwurstking/Git/pg-press"
-     ]
-    },
-    {
-     "paths": [
-      "/Users/knackwurstking/Git/picow-led"
-     ]
-    },
-    {
-     "paths": [
-      "/Users/knackwurstking/Git/shift-scheduler"
-     ]
-    }
-   ]
-  }
- ],
+		{
+			"host": "server.local",
+			"username": "knackwurstking",
+			"args": [],
+			"projects": [
+				{
+					"paths": ["/Users/knackwurstking"]
+				},
+				{
+					"paths": ["/Users/knackwurstking/Git/pg-press"]
+				},
+				{
+					"paths": ["/Users/knackwurstking/Git/picow-led"]
+				},
+				{
+					"paths": ["/Users/knackwurstking/Git/shift-scheduler"]
+				}
+			]
+		}
+	],
 	"disable_ai": false,
 	"notification_panel": {
 		"button": false
@@ -42,7 +34,7 @@
 	"vim_mode": true,
 	"language_models": {
 		"lmstudio": {
-			"api_url": "http://192.168.178.53:1234/api/v0",
+			"api_url": "http://192.168.178.52:1234/api/v0",
 			"available_models": [
 				{
 					"name": "qwen/qwen3-coder-30b",
