@@ -1,4 +1,33 @@
 {
+	"ssh_connections": [
+  {
+   "host": "server.local",
+   "username": "knackwurstking",
+   "args": [],
+   "projects": [
+    {
+     "paths": [
+      "/Users/knackwurstking"
+     ]
+    },
+    {
+     "paths": [
+      "/Users/knackwurstking/Git/pg-press"
+     ]
+    },
+    {
+     "paths": [
+      "/Users/knackwurstking/Git/picow-led"
+     ]
+    },
+    {
+     "paths": [
+      "/Users/knackwurstking/Git/shift-scheduler"
+     ]
+    }
+   ]
+  }
+ ],
 	"disable_ai": false,
 	"notification_panel": {
 		"button": false
@@ -7,38 +36,39 @@
 		"inactive_opacity": 0.0
 	},
 	"ui_font_family": "Recursive",
-	"relative_line_numbers": true,
+	"relative_line_numbers": "enabled",
 	"show_edit_predictions": false,
 	"confirm_quit": true,
 	"vim_mode": true,
 	"language_models": {
 		"lmstudio": {
+			"api_url": "http://192.168.178.53:1234/api/v0",
 			"available_models": [
 				{
-					"name": "qwen/qwen3-vl-8b",
-					"display_name": "Qwen 3 vl 8b",
-					"max_tokens": 50000,
-					"supports_tool_calls": true,
-					"supports_images": true
+					"name": "qwen/qwen3-coder-30b",
+					"display_name": "qwen3 coder 30b",
+					"max_tokens": 262144,
+					"supports_images": true,
+					"supports_tool_calls": true
 				}
 			]
 		}
 	},
 	"agent": {
-		"default_profile": "write",
+		"default_profile": "ask",
 		"play_sound_when_agent_done": true,
 		"inline_assistant_model": {
 			"provider": "lmstudio",
-			"model": "qwen/qwen3-vl-8b"
+			"model": "qwen/qwen3-coder-30b"
 		},
 		"always_allow_tool_actions": true,
 		"default_model": {
 			"provider": "lmstudio",
-			"model": "qwen/qwen3-vl-8b"
+			"model": "qwen/qwen3-coder-30b"
 		},
 		"commit_message_model": {
 			"provider": "lmstudio",
-			"model": "qwen/qwen3-vl-8b"
+			"model": "qwen/qwen3-coder-30b"
 		},
 		"dock": "left",
 		"default_width": 600
