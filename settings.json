@@ -9,13 +9,25 @@
 					"paths": ["/Users/knackwurstking"]
 				},
 				{
+					"paths": ["/Users/knackwurstking/Git/macos-server-scripts"]
+				},
+				{
 					"paths": ["/Users/knackwurstking/Git/pg-press"]
+				},
+				{
+					"paths": ["/Users/knackwurstking/Git/pg-vis-pwa"]
 				},
 				{
 					"paths": ["/Users/knackwurstking/Git/picow-led"]
 				},
 				{
+					"paths": ["/Users/knackwurstking/Git/scripts"]
+				},
+				{
 					"paths": ["/Users/knackwurstking/Git/shift-scheduler"]
+				},
+				{
+					"paths": ["/Users/knackwurstking/Git/tgs"]
 				}
 			]
 		}
@@ -34,20 +46,20 @@
 	"vim_mode": true,
 	"language_models": {
 		"lmstudio": {
-			"api_url": "http://192.168.178.52:1234/api/v0",
-			"available_models": [
-				{
-					"name": "qwen/qwen3-coder-30b",
-					"display_name": "qwen3 coder 30b",
-					"max_tokens": 262144,
-					"supports_images": true,
-					"supports_tool_calls": true
-				}
-			]
+			"api_url": "http://192.168.178.52:1234/api/v0"
+			//"available_models": [
+			//	{
+			//		"name": "qwen/qwen3-coder-30b",
+			//		"display_name": "qwen3 coder 30b",
+			//		"max_tokens": 262144,
+			//		"supports_images": true,
+			//		"supports_tool_calls": true
+			//	}
+			//]
 		}
 	},
 	"agent": {
-		"default_profile": "ask",
+		"default_profile": "write",
 		"play_sound_when_agent_done": true,
 		"inline_assistant_model": {
 			"provider": "lmstudio",
