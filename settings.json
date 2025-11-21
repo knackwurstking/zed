@@ -77,7 +77,21 @@
 					"max_tokens": 262144,
 					"supports_images": true,
 					"supports_tool_calls": true
+				},
+				{
+					"display_name": "GPT OSS",
+					"name": "openai/gpt-oss-20b",
+					"max_tokens": 131072,
+					"supports_images": false,
+					"supports_tool_calls": true
 				}
+				//{
+				//	"display_name": "GPT OSS Seed",
+				//	"name": "bytedance/seed-oss-36b",
+				//	"max_tokens": 524288,
+				//	"supports_images": false,
+				//	"supports_tool_calls": true
+				//}
 			]
 		}
 	},
@@ -88,16 +102,18 @@
 		"play_sound_when_agent_done": true,
 		"inline_assistant_model": {
 			"provider": "lmstudio",
-			"model": "qwen/qwen3-coder-30b"
+			//"model": "qwen/qwen3-coder-30b"
+			"model": "openai/gpt-oss-20b"
 		},
 		"always_allow_tool_actions": true,
 		"default_model": {
 			"provider": "lmstudio",
-			"model": "qwen/qwen3-coder-30b"
+			"model": "openai/gpt-oss-20b"
 		},
 		"commit_message_model": {
 			"provider": "lmstudio",
-			"model": "qwen/qwen3-coder-30b"
+			//"model": "qwen/qwen3-coder-30b"
+			"model": "openai/gpt-oss-20b"
 		},
 		"dock": "left",
 		"default_width": 600
