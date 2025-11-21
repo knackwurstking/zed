@@ -15,5 +15,17 @@
 
       "cmd-shift-o": "outline_panel::ToggleFocus"
     }
+  },
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "ctrl-g k": "git::Push"
+    }
+  },
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "ctrl-g j": "git::Pull"
+    }
   }
 ]
