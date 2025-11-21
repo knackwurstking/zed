@@ -102,18 +102,16 @@
 		"play_sound_when_agent_done": true,
 		"inline_assistant_model": {
 			"provider": "lmstudio",
-			//"model": "qwen/qwen3-coder-30b"
-			"model": "openai/gpt-oss-20b"
+			"model": "qwen/qwen3-coder-30b"
 		},
 		"always_allow_tool_actions": true,
 		"default_model": {
 			"provider": "lmstudio",
-			"model": "openai/gpt-oss-20b"
+			"model": "qwen/qwen3-coder-30b"
 		},
 		"commit_message_model": {
 			"provider": "lmstudio",
-			//"model": "qwen/qwen3-coder-30b"
-			"model": "openai/gpt-oss-20b"
+			"model": "qwen/qwen3-coder-30b"
 		},
 		"dock": "left",
 		"default_width": 600
