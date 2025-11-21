@@ -8,51 +8,66 @@
 				{
 					"paths": ["/Users/knackwurstking"]
 				},
+
 				{
 					"paths": ["/Users/knackwurstking/.config/nvim"]
 				},
+
 				{
 					"paths": ["/Users/knackwurstking/Git/macos-server-scripts"]
 				},
+
 				{
 					"paths": ["/Users/knackwurstking/Git/pg-press"]
 				},
+
 				{
 					"paths": ["/Users/knackwurstking/Git/pg-vis-pwa"]
 				},
+
 				{
 					"paths": ["/Users/knackwurstking/Git/picow-led"]
 				},
+
 				{
 					"paths": ["/Users/knackwurstking/Git/scripts"]
 				},
+
 				{
 					"paths": ["/Users/knackwurstking/Git/shift-scheduler"]
 				},
+
 				{
 					"paths": ["/Users/knackwurstking/Git/tgs"]
 				}
 			]
 		}
 	],
+
 	"disable_ai": false,
+
 	"notification_panel": {
 		"button": false
 	},
+
 	"active_pane_modifiers": {
 		"inactive_opacity": 0.0
 	},
+
 	"ui_font_family": "Recursive",
 	"relative_line_numbers": "enabled",
 	"show_edit_predictions": false,
 	"confirm_quit": true,
 	"vim_mode": true,
+
 	"language_models": {
 		"lmstudio": {
 			"api_url": "http://192.168.178.52:1234/api/v0"
 		}
 	},
+
 	"agent": {
+		"use_modifier_to_send": true,
 		"default_profile": "write",
 		"play_sound_when_agent_done": true,
 		"inline_assistant_model": {
@@ -71,6 +86,7 @@
 		"dock": "left",
 		"default_width": 600
 	},
+
 	"icon_theme": "Material Icon Theme",
 	"theme": "Gruvbox Dark Hard",
 	"buffer_font_family": "Recursive Mono Casual Static",
@@ -79,6 +95,7 @@
 	"soft_wrap": "editor_width",
 	"ui_font_size": 16.0,
 	"diagnostics_max_severity": "hint",
+
 	"inlay_hints": {
 		"enabled": false,
 		"show_type_hints": true,
@@ -92,15 +109,18 @@
 		},
 		"show_value_hints": true
 	},
+
 	"status_bar": {
 		"active_language_button": true,
 		"cursor_position_button": false
 	},
+
 	"tab_bar": {
 		"show": true,
 		"show_nav_history_buttons": false,
 		"show_tab_bar_buttons": false
 	},
+
 	"tabs": {
 		"close_position": "right",
 		"file_icons": true,
@@ -109,6 +129,7 @@
 		"show_close_button": "hover",
 		"show_diagnostics": "all"
 	},
+
 	"title_bar": {
 		"show_branch_icon": true,
 		"show_branch_name": true,
@@ -118,18 +139,21 @@
 		"show_sign_in": true,
 		"show_menus": false
 	},
+
 	"toolbar": {
 		"breadcrumbs": true,
 		"quick_actions": true,
 		"selections_menu": true,
 		"agent_review": true
 	},
+
 	"minimap": {
 		"max_width_columns": 80,
 		"show": "auto",
 		"thumb": "always",
 		"current_line_highlight": "all"
 	},
+
 	"git": {
 		"git_gutter": "tracked_files",
 		"inline_blame": {
@@ -142,8 +166,10 @@
 		},
 		"hunk_style": "unstaged_hollow"
 	},
+
 	"cursor_blink": true,
 	"show_whitespaces": "all",
+
 	"indent_guides": {
 		"enabled": true,
 		"line_width": 1,
@@ -151,10 +177,12 @@
 		"coloring": "indent_aware",
 		"background_coloring": "disabled"
 	},
+
 	"git_panel": {
 		"default_width": 600,
 		"status_style": "icon"
 	},
+
 	"project_panel": {
 		"hide_gitignore": false,
 		"dock": "right",
@@ -176,9 +204,11 @@
 			"show": "always"
 		}
 	},
+
 	"collaboration_panel": {
 		"button": false
 	},
+
 	"outline_panel": {
 		"button": true,
 		"dock": "right",
@@ -196,6 +226,7 @@
 			"show": null
 		}
 	},
+
 	"terminal": {
 		"alternate_scroll": "off",
 		"blinking": "on",
@@ -217,22 +248,27 @@
 			"show": null
 		}
 	},
+
 	"scrollbar": {
 		"show": "never",
 		"cursors": true
 	},
+
 	"file_types": {
 		"css": [".css"],
 		"json": [".prettierrc"],
 		"dotenv": [".env"]
 	},
+
 	"hard_tabs": true,
 	"tab_size": 4,
+
 	"languages": {
 		"HTML": {
 			"hard_tabs": true,
 			"tab_size": 2
 		},
+
 		"Markdown": {
 			"hard_tabs": false,
 			"tab_size": 2,
@@ -244,22 +280,27 @@
 				}
 			}
 		},
+
 		"Templ": {
 			"tab_size": 4,
 			"hard_tabs": true
 		},
+
 		"JavaScript": {
 			"tab_size": 4,
 			"hard_tabs": true
 		},
+
 		"CSS": {
 			"tab_size": 4,
 			"hard_tabs": true
 		},
+
 		"Make": {
 			"hard_tabs": true
 		}
 	},
+
 	"experimental.theme_overrides": {
 		"background.appearance": "transparent"
 	}
